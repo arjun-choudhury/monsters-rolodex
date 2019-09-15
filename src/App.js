@@ -7,7 +7,7 @@ class App extends Component {
     super();
 
     this.state = {
-      string: 'Jai Shri RAM'
+      string: 'Jai Mata Di'
     };
   }
 
