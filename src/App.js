@@ -6,7 +6,8 @@ class App extends Component {
     super();
 
     this.state = {
-      string: 'Jai Shri RAM'
+      string_1: 'Jai Shri RAM',
+      string_2: 'Jai Mata Di'
     };
   }
 
@@ -14,7 +15,10 @@ class App extends Component {
     return (<div className="App">
       <header className="App-header">
         <p>
-          { this.state.string }
+          { this.state.string_1 }
+        </p>
+        <p>
+          { this.state.string_2 }
         </p>
         <p>
           Edit <code>src/App.js</code> and save to reload.
