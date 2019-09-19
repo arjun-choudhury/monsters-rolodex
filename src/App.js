@@ -12,17 +12,19 @@ class App extends Component {
   }
 
   render() {
-    return (<div className="App">
-      <header className="App-header">
-        <p>
-          { this.state.string_1 }
-        </p>
-        <p>
-          { this.state.string_2 }
-        </p>  
-        <button onClick={() => this.setState({string_2: 'Jai Bajrangbali'})}>Change Text</button>    
-      </header>
-    </div>)
+    return (
+      <div className="App">
+        <header className="App-header">
+          <p>
+            {this.state.string_1}
+          </p>
+          <p>
+            {this.state.string_2}
+          </p>
+          <button onClick={() => this.setState({ string_2: 'Jai Bajrangbali' })}>Change Text</button>
+        </header>
+      </div>
+    )
   }
 }
 
